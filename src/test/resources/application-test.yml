@@ -1,0 +1,11 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+integration:
+  fipe:
+    url: "http://localhost:${wiremock.server.port}"
+
+wiremock:
+  server:
+    keep-alive: false

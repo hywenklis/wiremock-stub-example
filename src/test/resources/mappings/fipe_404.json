@@ -1,0 +1,15 @@
+{
+  "scenarioName": "FIPE_CAR_NOT_FOUND_SCENARIO",
+  "requiredScenarioState": "NOT_FOUND",
+  "request": {
+    "method": "GET",
+    "urlPattern": "/car\\?brand=.*&model=.*&year=.*"
+  },
+  "response": {
+    "status": 404,
+    "bodyFileName": "fipe-car-notfound.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "scenarioName": "FIPE_CAR_SUCCESS_SCENARIO",
+  "requiredScenarioState": "OK_SUCCESS",
+  "request": {
+    "method": "GET",
+    "urlPattern": "/car\\?brand=CHEVROLET&model=ONIX&year=2020"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "fipe-car-success.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
